@@ -17,7 +17,6 @@ html, body {
     width: 100%;
 }
 
-
 .abc {
     height: 33%;
     width: 100%;
@@ -28,12 +27,11 @@ html, body {
     background-color: darkorange;
 }
 
-
 .white {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: white; 
 }
 
 
@@ -41,9 +39,11 @@ html, body {
     padding: 3vw;
 }
 
+
 .green {
     background-color: darkgreen;
 }
+
 
 @keyframes rotate {
     from {
@@ -54,36 +54,7 @@ html, body {
     }
 }
 
+
 .xyz img {
     animation: rotate 10s linear infinite;
-}
-
-@media (max-width: 768px) {
-    .abc {
-        height: 33vh; 
-    }
-
-    .xyz {
-        padding: 2vw; 
-    }
-
-    .white img {
-        height: 80%; 
-        width: auto; 
-    }
-}
-
-@media (max-width: 480px) {
-    .abc {
-        height: 50vh;
-    }
-
-    .xyz {
-        padding: 1vw;
-    }
-
-    .white img {
-        height: 70%; 
-        width: auto; 
-    }
 }
